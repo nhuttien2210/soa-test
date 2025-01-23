@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply font-poppins box-content
+    }
+
+    svg {
+        @apply w-full h-full;
+    }
+
+    img {
+        @apply w-full h-auto
+    }
+}
+
+.gm-style-iw{
+    @apply !p-0 !rounded-[28px]
+}
+.gm-style-iw-chr{
+    @apply hidden
+}
+
+.gm-style-iw-d{
+    @apply !p-0 !overflow-auto
+}
+.gm-style-iw-tc{
+    @apply hidden
+}
